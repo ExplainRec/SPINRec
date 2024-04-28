@@ -1,3 +1,3 @@
 Presently, this folder is empty. 
-It is the designated location for saving and loading the trained recommender's checkpoints. 
+It is the designated location for saving and loading the trained recommender's checkpoints and the trained LXRs. 
 The checkpoints developed during our project are stored in the 'checkpoints' folder in the attached google drive.
