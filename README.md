@@ -31,8 +31,8 @@ Hyperparameter optimization was conducted using Optuna.
   
 ## Requirements
 
-* python 3.8
-* Pytorch 1.8.1
+* python 3.7.13
+* Pytorch 1.12.1
 * wandb 0.16.3 (the package we used for monitoring the recommenders training process)
 
 ## Usage
