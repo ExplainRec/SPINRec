@@ -39,8 +39,8 @@ Hyperparameter optimization was conducted using Optuna.
 
 To use this code, follow these steps:
 + Create data to work with by running the data_processing notebooks.
-  - Or in order to reproduce results from the paper without running the data_processing notebook, please download all files from [here](https://drive.google.com/drive/u/1/folders/1oto5QPrhisx2A4MCwub5OUHYdZTYAQxq) from the relevant folder <dataset_name> to data_preprocessing folder according to the data set you wish to run on.
-    * Note that the "static_test_data" files are avaiable in the Google Drive folder.
+  - Or in order to reproduce results from the paper without running the data_processing and SHAP notebooks, please download all files from [here](https://drive.google.com/drive/u/1/folders/1oto5QPrhisx2A4MCwub5OUHYdZTYAQxq) from the relevant folder <dataset_name> to data_preprocessing folder according to the data set you wish to run on.
+    * Note that the "static_test_data" files are avaiable in the Google Drive folder as well.
 + On every notebook, please specify the "data_name" variable to be 'ML1M'/'Yahoo'/'Pinterest', and the "recommender_name" variable to be 'MLP'/'VAE'/'NCF'.
 + All baselines' were calculated using the 'metrics' notebook, metrics for the PI approach and its variant were calculated using the dedicated notebooks.
 
