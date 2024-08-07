@@ -34,6 +34,9 @@ Hyperparameter optimization was conducted using Optuna.
 
 * python 3.7.13
 * Pytorch 1.12.1
+* Pandas version: 1.3.5
+* NumPy version: 1.21.6
+* SHAP version: 0.42.1
 * wandb 0.16.3 (the package we used for monitoring the recommenders training process)
 
 ## Usage
