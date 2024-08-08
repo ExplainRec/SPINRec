@@ -28,7 +28,7 @@ Hyperparameter optimization was conducted using Optuna.
   - metrics_baselines - contains code related to baselines evaluation.
   - lime, MLP_SHAP_clusters, VAE_SHAP_clusters, NCF_SHAP_clusters - notebook that contains help functions for calculating the LIME & SHAP baselines
 
-* **checkpoints**: Presently, this folder is empty.  It is the designated location for saving and loading the trained recommender's checkpoints. The checkpoints developed during our project are stored in the 'checkpoints' folder in the attached [drive](https://drive.google.com/drive/u/1/folders/1v8jZD2Ew-D4XA0k1NLxgVsHS6q4Aj-KP).
+* **checkpoints**: Presently, this folder is empty.  It is the designated location for saving and loading the trained recommender's checkpoints. The checkpoints developed during our project are stored in the 'checkpoints' folder in the attached [drive](https://drive.google.com/drive/u/1/folders/1oto5QPrhisx2A4MCwub5OUHYdZTYAQxq).
   
 ## Requirements
 
