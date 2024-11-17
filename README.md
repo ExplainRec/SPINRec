@@ -22,11 +22,12 @@ Hyperparameter optimization was conducted using Optuna.
   - recommenders_architecture - specifies the architecture of the recommenders that were used in the paper.
   - recommenders_training - contains code related to MLP, VAE and NCF recommenders training.
   - help_functions - includes the framework's functions that are being used in all notebooks.
-  - PI_functions - includes the PI method related functions that are being used in the metrics notebooks.
-  - mertics_PI_base - contains code related to PI base (null user) evaluation.
-  - metrics_PI_random - contains code related to the Path-Integration Randomized Users evaluation.
+  - SPINRec_functions - includes the SPINRec method related functions that are being used in the metrics notebooks.
+  - baselines_functions - contains code related to the basleines implementation.
+  - mertics_PI - contains code related to PI base (null user) evaluation.
+  - metrics_SPINRec - contains code related to the SPINRec evaluation.
   - metrics_baselines - contains code related to baselines evaluation.
-  - lime, MLP_SHAP_clusters, VAE_SHAP_clusters, NCF_SHAP_clusters - notebook that contains help functions for calculating the LIME & SHAP baselines
+  - Shap folder - contains notebooks with the implementation of SHAP baseline for all recommenders 
 
 * **checkpoints**: Presently, this folder is empty.  It is the designated location for saving and loading the trained recommender's checkpoints. The checkpoints developed during our project are stored in the 'checkpoints' folder in the attached [drive](https://drive.google.com/drive/u/1/folders/1oto5QPrhisx2A4MCwub5OUHYdZTYAQxq).
   
