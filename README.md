@@ -45,7 +45,7 @@ Hyperparameter optimization was conducted using Optuna.
 To use this code, follow these steps:
 + Create data to work with by running the data_processing notebooks.
   - Or in order to reproduce results from the paper without running the data_processing and SHAP notebooks, please download all files from [here](https://drive.google.com/drive/u/1/folders/1oto5QPrhisx2A4MCwub5OUHYdZTYAQxq) from the relevant folder <dataset_name> to data_preprocessing folder according to the data set you wish to run on.
-    * Note that the "static_test_data" files that we used to train our recommender systems are avaiable in the Google Drive folder as well.
+    * Note that the "static_test_data" files that we used to train our recommender systems are avaiable in the Google Drive folder as well for optimal reproducibility (these are the test data flies with additional 2 columns of sampled positive and negative items which are used in the training process).
 + On every notebook, please specify the "data_name" variable to be 'ML1M'/'Yahoo'/'Pinterest', and the "recommender_name" variable to be 'MLP'/'VAE'/'NCF'.
 + All baselines' results were calculated using the 'metrics_baselines' notebook, metrics for the SPINRec approach and its variant were calculated using the dedicated notebooks.
 
